@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class personsActivity extends AppCompatActivity {
 
-    private float totalprice;
+    static private float totalprice;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

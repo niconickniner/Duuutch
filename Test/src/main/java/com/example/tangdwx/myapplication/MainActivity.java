@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
         dishName = dName.getText().toString();
         if(dishName.length() == 0) {
             //no name
-            Toast.makeText(this,"Well, you did't write what the dish called yet...",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Well, you didn't write what the dish called yet...",Toast.LENGTH_LONG).show();
         }
         else  {
             String temp = dPrice.getText().toString();
             if(temp.length() == 0)
                 // no price
-                Toast.makeText(this,"Next, you did't write how much it is...",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"Next, you didn't write how much it is...",Toast.LENGTH_LONG).show();
             else {
                 //Finally everything is Ready here
                 dishPrice = Float.parseFloat(temp);
